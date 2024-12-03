@@ -3,35 +3,105 @@
     paddint: 0;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Arial", serif;
+}
 
+.title {
+    background-color: #8c68d7;
+    background-image: url("../assets/images/background_1.png");
+    background-position: center;
+    background-size: cover;
+}
 
+.header {
+    padding: 35px 0 33px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
 
+.logo {
+    margin-right: 281px;
+}
 
+.menu {
+    display: inline-block;
+}
 
+.menu ul {
+    padding: 0;
+}
 
+.menu-item {
+    display: inline-block;
+    margin-right: 50px;
+}
 
+.menu-item a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(237, 224, 248);
+    line-height: 1.2;
+}
 
+.main-block {
+    padding-bottom: 205px;
+}
 
+.main-block h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    padding: 150px 0 80px;
+    max-width: 452px;
+}
 
+.star-list {
+    padding-bottom: 101px;
+}
 
+.star-list img {
+    vertical-align: bottom;
+    padding-right: 14px;
+}
 
+.star-list span {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
 
+.button {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 22px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    width: 224px;
+}
 
+.skills {
+    padding: 140px 0 140px;
+}
 
+.skills h2 {
+    font-size: 35px;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    line-height: 1.571;
+    padding-bottom: 68px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.skills-item {
+    font-size: 16px;
+    color: rgb(49, 27, 94);
+    line-height: 1.5;
+    list-style-image: url("../assets/images/star.png");
+    vertical-align: bottom;
+}
 
 
 
