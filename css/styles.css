@@ -3,10 +3,13 @@
     paddint: 0;
 }
 
+main {
+    font-family: "Arial", serif;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    font-family: "Arial", serif;
 }
 
 .title {
@@ -21,11 +24,8 @@
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-.logo {
-    margin-right: 281px;
-}
-
 .menu {
+    margin-left: 281px;
     display: inline-block;
 }
 
@@ -59,28 +59,40 @@
 }
 
 .star-list {
-    padding-bottom: 101px;
+    margin-bottom: 101px;
 }
 
-.star-list img {
+.star-list-item {
+    margin-bottom: 15px;
+}
+
+.star-list-item img {
     vertical-align: bottom;
     padding-right: 14px;
 }
 
-.star-list span {
+.white-text {
     font-size: 16px;
     color: rgb(255, 255, 255);
-    line-height: 1.5;
 }
 
 .button {
     font-size: 16px;
-    color: rgb(255, 255, 255);
     font-weight: bold;
     padding: 22px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid;
     background-color: transparent;
     width: 224px;
+}
+
+.button.light {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.button.dark {
+    color: #b180e4;
+    border-color: #b180e4;
 }
 
 .skills {
@@ -96,25 +108,67 @@
 }
 
 .skills-item {
-    font-size: 16px;
     color: rgb(49, 27, 94);
     line-height: 1.5;
     list-style-image: url("../assets/images/star.png");
     vertical-align: bottom;
 }
 
+.dark-text {
+    font-size: 16px;
+    color: rgb(49, 27, 94);
+}
 
+.description {
+    background-color: #8c68d7;
+    background-image: url("../assets/images/background_2.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 140px;
+}
 
+.description-main {
+    max-width: 996px;
+    margin: 0 auto;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 60px 0 44px;
+}
 
+.description-main h2 {
+    font-size: 35px;
+    color: rgb(139, 103, 214);
+    font-weight: bold;
+    padding-bottom: 40px;
+}
 
+.description-text {
+    font-size: 16px;
+    color: rgb(49, 27, 94);
+    line-height: 1.5;
+    max-width: 588px;
+    margin: 0 auto;
+}
 
+#first-p {
+    margin-bottom: 30px;
+}
 
+#second-p {
+    margin-bottom: 40px;
+}
 
+.bold-text {
+    font-weight: bold;
+}
 
-
-
-
-
+.footer {
+    text-align: center;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    margin-top: 140px;
+    padding: 46px 0 46px;
+}
 
 
 
