@@ -12,7 +12,7 @@ main {
     margin: 0 auto;
 }
 
-.title {
+.block-1 {
     background-color: #8c68d7;
     background-image: url("../assets/images/background_1.png");
     background-position: center;
@@ -45,20 +45,20 @@ main {
     line-height: 1.2;
 }
 
-.main-block {
-    padding-bottom: 205px;
+.block-1-content {
+    padding: 205px 0 150px;
 }
 
-.main-block h1 {
+.block-1-content h1 {
     font-size: 45px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 1.222;
-    padding: 150px 0 80px;
-    max-width: 452px;
+    max-width: 455px;
+    margin-bottom: 80px;
 }
 
-.star-list {
+.block-1 .star-list {
     margin-bottom: 101px;
 }
 
@@ -71,9 +71,14 @@ main {
     padding-right: 14px;
 }
 
-.white-text {
+.white-text-16 {
     font-size: 16px;
     color: rgb(255, 255, 255);
+}
+
+.dark-text-16 {
+    font-size: 16px;
+    color: rgb(49, 27, 94);
 }
 
 .button {
@@ -85,41 +90,30 @@ main {
     width: 224px;
 }
 
-.button.light {
+.button.button-light {
     color: rgb(255, 255, 255);
     border-color: rgb(255, 255, 255);
 }
 
-.button.dark {
+.button.button-dark {
     color: #b180e4;
     border-color: #b180e4;
 }
 
-.skills {
+.block-2 {
+    background-color: #ffffff;
     padding: 140px 0 140px;
 }
 
-.skills h2 {
+.block-2 h2 {
     font-size: 35px;
     color: rgb(139, 103, 214);
     font-weight: bold;
     line-height: 1.571;
-    padding-bottom: 68px;
+    margin-bottom: 68px;
 }
 
-.skills-item {
-    color: rgb(49, 27, 94);
-    line-height: 1.5;
-    list-style-image: url("../assets/images/star.png");
-    vertical-align: bottom;
-}
-
-.dark-text {
-    font-size: 16px;
-    color: rgb(49, 27, 94);
-}
-
-.description {
+.block-3 {
     background-color: #8c68d7;
     background-image: url("../assets/images/background_2.png");
     background-position: center;
@@ -127,7 +121,7 @@ main {
     padding-top: 140px;
 }
 
-.description-main {
+.block-3-content {
     max-width: 996px;
     margin: 0 auto;
     text-align: center;
@@ -136,27 +130,23 @@ main {
     padding: 60px 0 44px;
 }
 
-.description-main h2 {
+.block-3-content h2 {
     font-size: 35px;
     color: rgb(139, 103, 214);
     font-weight: bold;
     padding-bottom: 40px;
 }
 
-.description-text {
+.description {
     font-size: 16px;
     color: rgb(49, 27, 94);
     line-height: 1.5;
     max-width: 588px;
-    margin: 0 auto;
+    margin: 0 auto 40px;
 }
 
-#first-p {
+.description p {
     margin-bottom: 30px;
-}
-
-#second-p {
-    margin-bottom: 40px;
 }
 
 .bold-text {
@@ -169,27 +159,3 @@ main {
     margin-top: 140px;
     padding: 46px 0 46px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
