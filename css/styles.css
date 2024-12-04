@@ -46,7 +46,7 @@ main {
 }
 
 .block-1-content {
-    padding: 205px 0 150px;
+    padding: 150px 0 205px;
 }
 
 .block-1-content h1 {
@@ -84,10 +84,11 @@ main {
 .button {
     font-size: 16px;
     font-weight: bold;
-    padding: 22px;
+    padding: 20px;
     border: 2px solid;
     background-color: transparent;
     width: 224px;
+    cursor: pointer;
 }
 
 .button.button-light {
@@ -101,16 +102,18 @@ main {
 }
 
 .block-2 {
-    background-color: #ffffff;
-    padding: 140px 0 140px;
+    padding-top: 140px;
 }
 
 .block-2 h2 {
     font-size: 35px;
     color: rgb(139, 103, 214);
     font-weight: bold;
-    line-height: 1.571;
     margin-bottom: 68px;
+}
+
+.block-2 article {
+    margin-bottom: 140px;
 }
 
 .block-3 {
@@ -123,7 +126,7 @@ main {
 
 .block-3-content {
     max-width: 996px;
-    margin: 0 auto;
+    margin: 0 auto 140px;
     text-align: center;
     background: #ffffff;
     border-radius: 20px;
@@ -156,6 +159,5 @@ main {
 .footer {
     text-align: center;
     border-top: 2px solid rgba(255, 255, 255, 0.2);
-    margin-top: 140px;
     padding: 46px 0 46px;
 }
